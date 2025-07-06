@@ -111,9 +111,3 @@ The project uses environment variables for secure database configuration:
 - `DB_USER`: Database username (default: root)
 - `DB_PASSWORD`: Database password (required)
 - `DB_NAME`: Database name (default: ALX_prodev)
-
-## Security Notes
-
-- Never commit your `.env` file to version control
-- Use `.env.example` as a template for required environment variables
-- The `.gitignore` file is configured to exclude sensitive files automatically
